@@ -1,0 +1,22 @@
+// Version: 1.0.0
+type Nat__490723111 = Nat__920180692;
+type Nat__920180692 = Nat;
+type Product__750902660 =
+  {
+    category : Text;
+    description : Text;
+    discountPercent : Nat;
+    id : Nat;
+    imageUrl : Text;
+    inStock : Bool;
+    name : Text;
+    originalPrice : Float
+  };
+actor {
+  stable products :
+    {
+      var blockIndex : Nat__490723111;
+      var blocks : [var [var ?Product__750902660]];
+      var elementIndex : Nat__490723111
+    }
+};

@@ -1,0 +1,15 @@
+type Product = 
+ record {
+   category: text;
+   description: text;
+   discountPercent: nat;
+   id: nat;
+   imageUrl: text;
+   inStock: bool;
+   name: text;
+   originalPrice: float64;
+ };
+service : {
+  getProduct: (id: nat) -> (opt Product) query;
+  getProducts: () -> (vec Product) query;
+}

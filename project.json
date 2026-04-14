@@ -1,0 +1,26 @@
+{
+  "overview": "A modern ladies dress e-commerce showcase with a new-age aesthetic (light pink, light blue, sky, light beige). Features a product gallery with 8-10 sample dresses, individual product detail pages with WhatsApp buy buttons, an About Us page, a Contact page with interactive map, and a beautiful navbar, CTA, sub-footer, and footer.",
+  "features": [
+    "Product gallery with 8-10 sample dresses",
+    "Individual product detail pages with image, price & discount badge",
+    "WhatsApp button on each product pre-fills dress details in chat",
+    "Interactive map on Contact page with directions",
+    "Scroll-to-top button",
+    "Navbar with mobile menu",
+    "Hero CTA section",
+    "Sub-footer and footer",
+    "New-age color palette: light pink, light blue, sky, light beige",
+    "Modern Poppins/Montserrat typography"
+  ],
+  "category": "e-commerce",
+  "tags": [
+    "dress",
+    "fashion",
+    "ladies",
+    "e-commerce",
+    "whatsapp",
+    "local-shop",
+    "product-gallery"
+  ],
+  "last_updated": "2026-04-14T04:36:36.006Z"
+}
