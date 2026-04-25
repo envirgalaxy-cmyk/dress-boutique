@@ -8,7 +8,7 @@ export default function SubFooter() {
     >
       <div className="container mx-auto px-4 flex items-center justify-center text-center">
         <p className="mb-0 text-xs text-muted-foreground font-body leading-relaxed">
-          &copy; {year} MediCare+ Hospital. All rights reserved. Designed &amp;
+          &copy; {year} Dress Boutique. All rights reserved. Designed &amp;
           Developed by{" "}
           <a
             href="https://sage-meringue-21784f.netlify.app"
