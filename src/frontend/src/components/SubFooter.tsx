@@ -1,28 +1,33 @@
 export default function SubFooter() {
   const year = new Date().getFullYear();
-  const hostname =
-    typeof window !== "undefined"
-      ? window.location.hostname
-      : "dressboutique.in";
-  const caffeineUrl = `https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(hostname)}`;
 
   return (
     <div
       className="bg-muted/40 border-t border-border py-4"
       data-ocid="subfooter"
     >
-      <div className="container mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-muted-foreground font-body">
-        <p>© {year} Dress Boutique. All rights reserved.</p>
-        <p>
-          Built with love using{" "}
+      <div className="container mx-auto px-4 flex items-center justify-center text-center">
+        <p className="mb-0 text-xs text-muted-foreground font-body leading-relaxed">
+          &copy; {year} MediCare+ Hospital. All rights reserved. Designed &amp;
+          Developed by{" "}
           <a
-            href={caffeineUrl}
+            href="https://sage-meringue-21784f.netlify.app"
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent hover:underline transition-smooth"
           >
-            caffeine.ai
+            Jay Patel
+          </a>{" "}
+          (
+          <a
+            href="https://envirgalaxy.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-accent hover:underline transition-smooth"
+          >
+            EnvirGalaxy Consultancy
           </a>
+          )
         </p>
       </div>
     </div>
