@@ -11,7 +11,7 @@ export default function SubFooter() {
           &copy; {year} Dress Boutique. All rights reserved. Designed &amp;
           Developed by{" "}
           <a
-            href="https://sage-meringue-21784f.netlify.app"
+            href="https://jayy-patel.vercel.app"
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent hover:underline transition-smooth"
