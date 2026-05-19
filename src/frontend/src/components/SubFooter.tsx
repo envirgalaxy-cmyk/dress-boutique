@@ -17,7 +17,7 @@ export default function SubFooter() {
             className="text-accent hover:underline transition-smooth"
           >
             Jay Patel
-          </a>{" "}
+          </a>{" "} 👾 {" "}
           (
           <a
             href="https://envirgalaxy.com/"
